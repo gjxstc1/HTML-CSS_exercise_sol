@@ -1,1 +1,1 @@
-# HTML-CSS_exercise_sol
+HTML-CSS course. Personal exercise solutions.
