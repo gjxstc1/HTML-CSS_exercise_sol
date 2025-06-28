@@ -1,1 +1,1 @@
-HTML-CSS course. Personal exercise solutions.
+HTML-CSS course. Personal solutions.
