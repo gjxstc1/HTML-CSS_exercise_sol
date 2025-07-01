@@ -1,0 +1,277 @@
+<style>
+  .uber-button {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border: none;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    transition: opacity 0.15s;
+    margin-right: 8px;
+    margin-left: 8px;
+    vertical-align: top;
+  }
+
+  .uber-button:hover {
+    opacity: 0.8;
+  }
+  .uber-button:active {
+    opacity: 0.5;
+  }
+
+  .amazon-button {
+    background-color: rgb(255, 216, 20);
+    color: black;
+    cursor: pointer;
+    border: none;
+    font-size: 16px;
+    border-radius: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    transition: background-color 0.15s, opacity 0.15s;
+    margin-right: 8px;
+    margin-left: 8px;
+  }
+
+  .amazon-button:hover {
+    background-color: rgb(235, 200, 24);
+  }
+  .amazon-button:active {
+    opacity: 0.4;
+  }
+
+  .github-button {
+    background-color: rgb(46, 164, 79);
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: box-shadow 0.15s;
+    margin-right: 8px;
+    margin-left: 8px;
+    vertical-align: top;
+  }
+
+  .github-button:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  }
+  .github-button:active {
+    opacity: 0.5;
+  }
+
+  .Bootstrap-started-button {
+    background-color: rgb(121, 82, 179);
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: background-color 0.15s, opacity 0.15s;
+    margin-right: 8px;
+    margin-left: 8px;
+    vertical-align: top;
+  }
+
+  .Bootstrap-started-button:hover {
+    background-color: rgb(108, 73, 160);
+  }
+  .Bootstrap-started-button:active {
+    opacity: 0.5;
+  }
+
+  .Bootstrap-download-button {
+    background-color: white;
+    color: rgb(108, 117, 125);
+    font-weight: bold;
+    font-size: 16px;
+    border-color: rgb(108, 117, 125);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    cursor: pointer;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 8px;
+    margin-left: 8px;
+    transition: background-color 0.15s, color 0.15s;
+    vertical-align: top;
+  }
+
+  .Bootstrap-download-button:hover {
+    background-color: rgb(108, 117, 125);
+    color: white;
+  }
+  .Bootstrap-download-button:active {
+    opacity: 0.7;
+  }
+
+  .linkedin-company-button {
+    background-color: rgb(10, 102, 194);
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 8px;
+    margin-left: 8px;
+    transition: background-color 0.15s, opacity 0.15s;
+    vertical-align: top;
+  }
+
+  .linkedin-company-button:hover {
+    background-color: rgb(9, 89, 168);
+  }
+  .linkedin-company-button:active {
+    opacity: 0.5;
+  }
+
+  .linkedin-save-button {
+    background-color: white;
+    color: rgb(10, 102, 194);
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(10, 102, 194);
+    border-radius: 18px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 8px;
+    margin-left: 8px;
+    transition: background-color 0.15s, opacity 0.15s;
+    vertical-align: top;
+  }
+
+  .linkedin-save-button:hover {
+    background-color: rgba(10, 102, 194, 0.1);
+    border-width: 2px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 19px;
+    padding-right: 19px;
+  }
+  .linkedin-save-button:active {
+    opacity: 0.7;
+  }
+
+  .amazon-buy-button {
+    background-color: rgb(255, 164, 28);
+    color: black;
+    cursor: pointer;
+    border: none;
+    font-size: 16px;
+    border-radius: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    transition: background-color 0.15s, opacity 0.15s;
+    margin-right: 8px;
+    margin-left: 8px;
+    vertical-align: top;
+  }
+  
+  .amazon-buy-button:hover {
+    background-color: rgb(239, 154, 26);
+  }
+  .amazon-buy-button:active {
+    opacity: 0.4;
+  }
+
+  .back-text {
+    text-decoration: none;
+    color: rgb(0, 113, 113);
+    transition: color 0.15s;
+  }
+
+  .back-text:hover {
+    color: rgb(210, 150, 10);
+  }
+
+</style>
+
+<button class = "uber-button">
+  <a href = "https://www.uber.com/" target = "_blank" style="text-decoration: none; color: inherit;">
+    Request now
+  </a>
+</button>
+
+<button class = "amazon-button">
+  <a href = "https://www.amazon.com/" target = "_blank" style="text-decoration: none; color: inherit;">
+    Add to Cart
+  </a>
+</button>
+
+<button class = "github-button">
+  <a href = "https://github.com/" target = "_blank" style = "text-decoration: none; color: inherit;">
+    Sign Up
+  </a>
+</button>
+
+<button class = "Bootstrap-started-button">
+  <a href = "https://getbootstrap.com/" target = "_blank" style="text-decoration: none; color: inherit;">
+    Get Started
+  </a>
+</button>
+<button class = "Bootstrap-download-button">
+  <a href = "https://getbootstrap.com/" target = "_blank" style="text-decoration: none; color: inherit;">
+    Download
+  </a>
+</button>
+
+<button class = "linkedin-company-button">
+  <a href="https://www.linkedin.com/in/your-profile" style="text-decoration: none; color: inherit;">
+    Apply on company website
+  </a>
+</button>
+<button class = "linkedin-save-button">
+  <a href="https://www.linkedin.com/in/your-profile" style="text-decoration: none; color: inherit;">
+    Save
+  </a>
+</button>
+
+<p> Challenge Exercises</p>
+<a href = "https://www.amazon.com/" target = "_blank" class = "back-text">
+  Back to Amazon
+</a>
+<p style = "font-weight: bold; font-size: 20px;">
+  Nike Black Running Shoes
+</p>
+<p style = "color: rgb(0, 118, 0);">
+  $39 - in stock.
+</p>
+<p>
+  Free delivery tomorrow.
+</p>
+<button class = "amazon-button">
+  Add to Cart
+</button>
+<button class = "amazon-buy-button">
+  Buy now
+</button>

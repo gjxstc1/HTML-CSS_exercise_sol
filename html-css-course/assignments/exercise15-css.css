@@ -1,0 +1,109 @@
+.body {
+  height: 5000px;
+  font-family: Arial;
+}
+
+.ultimate-close-button,
+.close-button {
+  position: absolute;
+  background-color: black;
+  color:aliceblue;
+  height: 40px;
+  width: 40px;
+  font-size: 20px;
+  border: none;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  top: 10px;
+  right: 10px;
+}
+
+.preview {
+  position: fixed;
+  width: 320px;
+  height: 180px;
+  background-color: gray;
+  bottom: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+
+.close-button {
+  position: absolute;
+  top: -15px;
+  left: -15px;
+}
+
+.timestamp {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  background-color: black;
+  color: white;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.shirt-container {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  top: 20px;
+  left: 20px;
+}
+
+.shirt {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.discount {
+  position: absolute;
+  top: 10px;
+  right: 0;
+  color: white;
+  background-color: black;
+  padding-right: 12px;
+  padding-left: 12px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.add-container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100px;
+  background-color: rgba(255, 255, 255, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.add-button {
+  background-color: white;
+  border-width: 1px;
+  border-style: solid;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  cursor: pointer;
+  transition: opacity 0.15s, background-color 0.15s, color 0.15s;
+}
+
+.add-button:hover {
+  background-color: black;
+  color: white;
+}
+.add-button:active {
+  opacity: 0.5;
+}

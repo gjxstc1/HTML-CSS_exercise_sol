@@ -1,0 +1,206 @@
+.div1 {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  display: inline-block;
+}
+
+.div2 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  background-color: green;
+  display: inline-block;
+}
+
+.div3 {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  width: 300px;
+  height: 110px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(150, 150, 150);
+}
+
+p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 18px;
+}
+
+.p3 {
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.button3 {
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.div4 {
+  width: 450px;
+  padding-top: 30px;
+  padding-left: 20px;
+  height: 150px;
+  background-color: rgb(33, 33, 33);
+  display: block;
+  margin-bottom: 40px;
+}
+
+.install-text {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.description-text {
+  color: rgb(160, 160, 160);
+}
+
+
+.twitter {
+  width: 600px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+  margin-right: 10px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.name {
+  display: inline-block;
+  vertical-align: middle;
+  color: gray;
+  font-size: 18px;
+  width: 400px;
+}
+
+.tweet-button {
+  display: inline-block;
+  vertical-align: middle;
+  background-color: rgb(29, 155, 240);
+  color: white;
+  border: none;
+  border-radius: 50px;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  transition: box-shadow 0.15s;
+}
+
+.tweet-button:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+
+.profile {
+  width: 250px;
+  height: 330px;
+  border: none;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  display: inline-block;
+  margin-right: 20px;
+  margin-bottom: 40px;
+}
+
+.picture {
+  width: 250px;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+  margin-bottom: 10px;
+}
+
+.username {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.friend {
+  margin-left: 10px;
+  font-size: 14px;
+  color: rgb(100, 100, 100);
+  margin-bottom: 10px;
+}
+
+.friend-button {
+  background-color: rgb(24, 119, 242);
+  color: white; 
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+.friend-button:hover {
+  opacity: 0.8;
+}
+.friend-button:active {
+  opacity: 0.5;
+}
+
+.Google {
+  width: 600px;
+  text-align: center;
+}
+
+.google-logo {
+  width: 150px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.google-bar {
+  width: 400px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  border: none;
+  font-size: 16px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+
+.google-button {
+  border: none;
+  background-color: rgb(248, 249, 250);
+  font-size: 14px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: rgb(60, 64, 67);
+  cursor: pointer;
+}
+

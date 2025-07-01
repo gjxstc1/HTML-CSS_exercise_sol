@@ -1,0 +1,148 @@
+p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  width: 360px;
+}
+
+.Tahoma-font {
+  font-family: Tahoma;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.Arial-font {
+  font-family: Arial;
+}
+.Arial-font-title {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+.Arial-font-text {
+  color: red;
+  font-style: italic;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.Verdana-font {
+  font-family: Verdana;
+}
+.Verdana-font-text1 {
+  color: gray;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+.Verdana-font-text2 {
+  font-size: 16px;
+  margin-bottom: 20px;
+  line-height: 20px;
+}
+.Verdana-font-button {
+  background-color: green;
+  color: white;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+  transition: opacity 0.15s;
+}
+.Verdana-font-button:hover {
+  opacity: 0.8;
+}
+.Verdana-font-button:active {
+  opacity: 0.5;
+}
+
+.shopping-title {
+  font-weight: bold;
+  text-align: center;
+  font-size: 22px;
+  margin-bottom: 16px;
+}
+.text {
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 16px;
+}
+.special-text {
+  color: rgb(37, 37, 255);
+  cursor: pointer;
+}
+.special-text:hover {
+  text-decoration: underline;
+}
+
+/*Challenge Exercises:*/
+
+.Mac-ad {
+  font-family: Arial;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  width: 360px;
+  text-align: center;
+}
+.new {
+  font-weight: bold;
+  color: orange;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+.macpro {
+  font-weight: bold;
+  font-size: 22px;
+  margin-bottom: 8px;
+}
+.supercharged {
+  font-weight: bold;
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+.price {
+  margin-bottom: 16px;
+}
+
+.buy-button {
+  background-color: rgb(0, 113, 227);
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 18px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 40px;
+  transition: opacity 0.15s;
+}
+.buy-button:hover {
+  opacity: 0.8;
+}
+.buy-button:active {
+  opacity: 0.5;
+}
+
+.stocks {
+  font-family: Arial;
+}
+
+.twitter {
+  font-family: Arial;
+}
+
+.span-text {
+  color: rgb(29, 155, 240);
+  cursor: pointer;
+}
+.span-text:hover {
+  text-decoration: underline;
+  cursor: pointer";
+}
